@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Janendra De Silva | QA Engineer Portfolio</title>
+  <meta name="description" content="Modern portfolio of Janendra De Silva, a QA Engineer Intern focused on manual testing, automation testing, API testing, Selenium, Playwright, Postman, and Java backend knowledge." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-card">
+      <div class="loader-ring"></div>
+      <p>Loading portfolio</p>
+      <span>QA · Automation · APIs</span>
+    </div>
+  </div>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <canvas id="heroCanvas" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home" aria-label="Go to home">
+      <span>J</span><strong>Janendra</strong>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#stack">Stack</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="nav-github magnetic" href="https://github.com/JanendraGit" target="_blank" rel="noreferrer">GitHub ↗</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <aside class="mobile-panel" id="mobilePanel" aria-label="Mobile navigation">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#stack">Stack</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </aside>
+
+  <main>
+    <!-- HOME -->
+    <section class="hero section" id="home">
+      <div class="hero-bg-orb orb-one"></div>
+      <div class="hero-bg-orb orb-two"></div>
+      <div class="hero-inner">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> QA Engineer Portfolio</div>
+          <h1>
+            Improving software quality with
+            <em>manual testing, automation</em> and API testing.
+          </h1>
+          <p class="hero-subtitle">
+            I test web applications through well-structured test cases, automation frameworks, API validation, bug reporting, and regression testing.
+          </p>
+
+          <div class="typing-row">
+            <span class="terminal-dot"></span>
+            <span id="typingText">QA Engineer Intern</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary magnetic">View Projects</a>
+            <a href="#contact" class="btn secondary magnetic">Contact Me</a>
+          </div>
+
+          <div class="hero-stats">
+            <div><strong>QA</strong><span>Manual · Automation</span></div>
+            <div><strong>Java</strong><span>Selenium · Playwright</span></div>
+            <div><strong>API</strong><span>Postman · Swagger</span></div>
+          </div>
+        </div>
+
+        <div class="hero-photo reveal delay-1">
+          <div class="portrait-shell tilt-card">
+            <div class="portrait-topbar">
+              <span></span><span></span><span></span>
+              <p>profile.preview</p>
+            </div>
+            <div class="portrait-frame">
+              <img src="assets/profile-portrait.png" alt="Janendra De Silva portrait" />
+              <div class="photo-gradient"></div>
+            </div>
+            <div class="identity-strip">
+              <div>
+                <h2>Janendra De Silva</h2>
+                <p>QA Engineer Intern · Sri Lanka</p>
+              </div>
+              <a href="https://github.com/JanendraGit" target="_blank" rel="noreferrer">@JanendraGit</a>
+            </div>
+          </div>
+
+          <div class="hero-chip chip-a">Selenium</div>
+          <div class="hero-chip chip-b">Playwright</div>
+          <div class="hero-chip chip-c">Postman</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <span>01 · About</span>
+        <h2>Simple goal: help teams release software that is reliable, tested, and user-friendly.</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card reveal">
+          <p>
+            I am a motivated and detail-oriented QA Engineer Intern with hands-on knowledge in manual testing, automation testing, API testing, test case writing, bug reporting, and regression testing. I enjoy understanding requirements, checking real user workflows, finding defects clearly, and helping improve product quality.
+          </p>
+          <p>
+            My portfolio focuses on practical QA work: functional testing, UI testing, smoke and sanity testing, regression testing, cross-browser testing, automation frameworks, API testing, and clear defect reporting.
+          </p>
+        </article>
+
+        <div class="about-highlights reveal delay-1">
+          <div class="highlight-box">
+            <span>Focus</span>
+            <strong>Software Quality Assurance</strong>
+            <p>Manual testing, automation testing, API testing, test cases, and bug reporting.</p>
+          </div>
+          <div class="highlight-box">
+            <span>Learning</span>
+            <strong>Automation & Backend Knowledge</strong>
+            <p>Selenium, Playwright, Postman, Java, Spring Boot, REST APIs, and databases.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="section stack" id="stack">
+      <div class="section-heading reveal">
+        <span>02 · Stack</span>
+        <h2>QA and development stack, organized like a real software testing workflow.</h2>
+      </div>
+
+      <div class="stack-command reveal">
+        <div class="command-header">
+          <div><span></span><span></span><span></span></div>
+          <p>qa-stack.command-center</p>
+        </div>
+        <div class="command-body">
+          <div class="command-left">
+            <h3>Core QA Stack</h3>
+            <p>Technologies I use for manual testing, automation testing, API testing, backend understanding, and defect analysis.</p>
+            <div class="stack-radar" aria-hidden="true">
+              <div class="radar-ring ring-1"></div>
+              <div class="radar-ring ring-2"></div>
+              <div class="radar-ring ring-3"></div>
+              <div class="radar-line"></div>
+              <div class="radar-node node-1">Java</div>
+              <div class="radar-node node-2">Selenium</div>
+              <div class="radar-node node-3">Postman</div>
+              <div class="radar-node node-4">Playwright</div>
+            </div>
+          </div>
+
+          <div class="stack-groups">
+            <article class="stack-group tilt-card">
+              <div class="stack-icon">☕</div>
+              <h4>Languages</h4>
+              <div class="tags"><span>Java</span><span>JavaScript</span></div>
+            </article>
+            <article class="stack-group tilt-card">
+              <div class="stack-icon">⚙️</div>
+              <h4>Manual Testing</h4>
+              <div class="tags"><span>Test Cases</span><span>Bug Reports</span><span>Functional</span><span>UI Testing</span></div>
+            </article>
+            <article class="stack-group tilt-card">
+              <div class="stack-icon">🔐</div>
+              <h4>Automation</h4>
+              <div class="tags"><span>Selenium</span><span>Playwright</span><span>Cypress</span><span>POM</span></div>
+            </article>
+            <article class="stack-group tilt-card">
+              <div class="stack-icon">🗄️</div>
+              <h4>API Testing</h4>
+              <div class="tags"><span>Postman</span><span>Swagger</span><span>REST APIs</span><span>Status Codes</span></div>
+            </article>
+            <article class="stack-group tilt-card">
+              <div class="stack-icon">🧪</div>
+              <h4>Testing Types</h4>
+              <div class="tags"><span>Smoke</span><span>Sanity</span><span>Regression</span><span>Cross-browser</span></div>
+            </article>
+            <article class="stack-group tilt-card">
+              <div class="stack-icon">🚀</div>
+              <h4>Tools & Backend</h4>
+              <div class="tags"><span>Git</span><span>Jira</span><span>Docker</span><span>Spring Boot</span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="workflow reveal">
+        <div class="workflow-step"><b>01</b><span>Requirement</span><p>Understand expected behavior, acceptance criteria, and user flows.</p></div>
+        <div class="workflow-step"><b>02</b><span>Plan</span><p>Write positive, negative, edge, and regression test scenarios.</p></div>
+        <div class="workflow-step"><b>03</b><span>Test</span><p>Execute manual, UI, API, and automation test coverage.</p></div>
+        <div class="workflow-step"><b>04</b><span>Report</span><p>Log clear defects with steps, evidence, severity, and priority.</p></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <span>03 · Projects</span>
+        <h2>Selected projects from automation testing, API testing, and backend development.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal tilt-card" data-type="automation">
+          <div class="project-meta"><span>Selenium · Java</span><a href="https://github.com/JanendraGit/E-commerce_Automation_project.git" target="_blank" rel="noreferrer">Repo ↗</a></div>
+          <h3>E-commerce Automation Project</h3>
+          <p>UI automation framework for an e-commerce website covering registration, login, product search, cart, and checkout using Page Object Model.</p>
+        </article>
+        <article class="project-card reveal tilt-card" data-type="automation">
+          <div class="project-meta"><span>Playwright</span><a href="https://github.com/JanendraGit/E-commerce-web-application-Playwright.git" target="_blank" rel="noreferrer">Repo ↗</a></div>
+          <h3>E-commerce Playwright Automation</h3>
+          <p>End-to-end automation framework covering login, product selection, add-to-cart, and checkout workflows with reusable test architecture.</p>
+        </article>
+        <article class="project-card reveal tilt-card" data-type="api">
+          <div class="project-meta"><span>Spring Boot</span><a href="https://github.com/JanendraGit/Hotel-Deal-API-System.git" target="_blank" rel="noreferrer">Repo ↗</a></div>
+          <h3>Hotel-Deal-API-System</h3>
+          <p>Spring Boot API for hotel booking with JWT and OAuth2 authentication, MySQL with Flyway, JUnit/Mockito tests, Docker, and SonarQube.</p>
+        </article>
+        <article class="project-card reveal tilt-card" data-type="backend">
+          <div class="project-meta"><span>Java · REST APIs</span><a href="https://github.com/JanendraGit" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+          <h3>Hotel Vehicle Rental & Local Service Finder</h3>
+          <p>Backend-focused training projects using Java and Spring Boot with REST API validation, exception handling, authentication, and database work.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section experience" id="experience">
+      <div class="section-heading reveal">
+        <span>04 · Experience</span>
+        <h2>Professional experience and career direction.</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-progress" id="timelineProgress"></div>
+        <article class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <small>Jan 2025 – Jul 2025</small>
+          <h3>Software Engineer Intern · Zerocode Software</h3>
+          <p>Developed backend features using Java and Spring Boot, built REST APIs with validation and exception handling, implemented JWT authentication, RabbitMQ messaging, Redis caching, and JUnit/Mockito testing.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <small>Aug 2025 – Mar 2026</small>
+          <h3>Software Engineer Intern · SyscoNex Solutions</h3>
+          <p>Contributed to enterprise software development, enhanced Spring Boot backend components, designed and tested REST APIs, participated in database design, and worked with Git, Docker, and Agile workflows.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <small>Expected 2026</small>
+          <h3>BSc Special (Hons) in Information Technology · SLIIT</h3>
+          <p>Reading for a degree at Sri Lanka Institute of Information Technology while building practical QA, automation, API testing, and backend development skills.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <span>05 · Contact</span>
+        <h2>Normal, clean, and modern contact section.</h2>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-info reveal">
+          <div class="contact-profile">
+            <img src="assets/profile-portrait.png" alt="Janendra De Silva" />
+            <div>
+              <h3>Janendra De Silva</h3>
+              <p>QA Engineer Intern</p>
+            </div>
+          </div>
+
+          <div class="contact-list">
+            <a href="mailto:janendra.silva2001@gmail.com"><span>Email</span><strong>janendra.silva2001@gmail.com</strong></a>
+            <a href="https://github.com/JanendraGit" target="_blank" rel="noreferrer"><span>GitHub</span><strong>github.com/JanendraGit</strong></a>
+            <a href="https://www.linkedin.com/in/janendra-de-silva-085a01376" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>janendra-de-silva</strong></a>
+            <a href="tel:+94717881658"><span>Phone</span><strong>+94 717 881 658</strong></a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal delay-1" id="contactForm">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Write your message..." required></textarea>
+          </div>
+          <button class="btn primary magnetic" type="submit">Send Message</button>
+          <p class="form-note">This opens your email app with the message prepared.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Janendra De Silva. Built as a modern QA engineer portfolio.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
